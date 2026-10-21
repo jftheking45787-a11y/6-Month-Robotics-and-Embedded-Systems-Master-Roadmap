@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>6-Month Robotics and Embedded Systems Master Roadmap</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500;700&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="nav">
+  <div class="wrap">
+    <a class="brand" href="#top">Robotics<span> // roadmap</span></a>
+    <nav aria-label="Months"><a href="#m1" style="--c:var(--m1)" aria-label="Month 1"><i></i>M1</a><a href="#m2" style="--c:var(--m2)" aria-label="Month 2"><i></i>M2</a><a href="#m3" style="--c:var(--m3)" aria-label="Month 3"><i></i>M3</a><a href="#m4" style="--c:var(--m4)" aria-label="Month 4"><i></i>M4</a><a href="#m5" style="--c:var(--m5)" aria-label="Month 5"><i></i>M5</a><a href="#m6" style="--c:var(--m6)" aria-label="Month 6"><i></i>M6</a></nav>
+    <button id="theme" type="button" aria-label="Switch between light and dark theme">
+      <svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6.2" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M8 1.8a6.2 6.2 0 0 1 0 12.4z" fill="currentColor"/></svg>
+    </button>
+  </div>
+</div>
+
+<header class="hero" id="top">
+  <div class="wrap">
+    <div>
+      <p class="eyebrow">// 180-day build program</p>
+      <h1>6-Month Robotics and Embedded Systems <em>Master Roadmap</em></h1>
+      <p class="lede">From a multimeter and a breadboard to a maze solver and a home automation hub. One month at a time, one working build at a time.</p>
+      <dl class="stats">
+        <div><dd>6</dd><dt>Months</dt></div>
+        <div><dd>180</dd><dt>Days</dt></div>
+        <div><dd>17</dd><dt>Bench labs</dt></div>
+        <div><dd>7</dd><dt>Full builds</dt></div>
+      </dl>
+    </div>
+    <div class="win">
+      <div class="win-bar"><span class="bands" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></span><span>roadmap.ino</span><span class="state">compiled</span></div>
+<pre><code><span class="pp">#define</span> MONTHS <span class="nu">6</span>
+<span class="pp">#define</span> DAYS   <span class="nu">180</span>
+
+<span class="kw">void</span> <span class="fn2">setup</span>() {
+  <a class="fn" href="#m1">learnElectronics</a>();    <span class="cm">// month 1</span>
+  <a class="fn" href="#m2">masterArduino</a>();       <span class="cm">// month 2</span>
+}
+
+<span class="kw">void</span> <span class="fn2">loop</span>() {
+  <a class="fn" href="#m3">buildLineFollower</a>();   <span class="cm">// month 3</span>
+  <a class="fn" href="#m4">buildRCCarAndArm</a>();    <span class="cm">// month 4</span>
+  <a class="fn" href="#m5">goAutonomous</a>();        <span class="cm">// month 5</span>
+  <a class="fn" href="#m6">automateEverything</a>();  <span class="cm">// month 6</span>
+}<span class="caret" aria-hidden="true"></span></code></pre>
+    </div>
+  </div>
+</header>
+
+<main>
+<section class="overview">
+  <div class="wrap">
+    <div class="sec-head"><h2>Route overview</h2><p>// pick a month to jump to it</p></div>
+    <div class="routes"><a class="route" href="#m1" style="--c:var(--m1)"><span class="r-top"><b>M1</b><span>Days 1–30</span></span><h3>Electronics Foundations &amp; Introduction to C++</h3><p>Components, wiring, soldering and sensors, then the Arduino IDE and C++ basics.</p></a><a class="route" href="#m2" style="--c:var(--m2)"><span class="r-top"><b>M2</b><span>Days 1–30</span></span><h3>Core Arduino Sensors, Actuators &amp; Peripherals</h3><p>Eleven sensor and actuator labs, from LED blink to DHT11 and IR remote.</p></a><a class="route" href="#m3" style="--c:var(--m3)"><span class="r-top"><b>M3</b><span>Days 1–30</span></span><h3>Advanced Modules &amp; Line Follower Robot</h3><p>Six module labs, then the line follower capstone.</p></a><a class="route" href="#m4" style="--c:var(--m4)"><span class="r-top"><b>M4</b><span>Days 1–30</span></span><h3>Mobile Robotics &amp; Mechanical Systems</h3><p>An RC car, then a multi-axis robotic arm.</p></a><a class="route" href="#m5" style="--c:var(--m5)"><span class="r-top"><b>M5</b><span>Days 1–30</span></span><h3>Autonomous Navigation &amp; Voice Control</h3><p>An obstacle avoiding robot, then voice control.</p></a><a class="route" href="#m6" style="--c:var(--m6)"><span class="r-top"><b>M6</b><span>Days 1–30</span></span><h3>Advanced Robotics &amp; Smart Automation</h3><p>A maze solver, then a home automation system.</p></a></div>
+  </div>
+</section>
+<section class="month" id="m1" style="--c:var(--m1)"><div class="wrap"><header class="mh"><span class="mh-num">M1</span><div><p class="mh-days">Month 1 · Days 1–30</p><h2>Electronics Foundations &amp; Introduction to C++</h2></div></header><div class="bus" aria-hidden="true"><i style="grid-column:1 / 4" title="Days 1–3"></i><i style="grid-column:4 / 7" title="Days 4–6"></i><i style="grid-column:7 / 11" title="Days 7–10"></i><i style="grid-column:11 / 15" title="Days 11–14"></i><i style="grid-column:15 / 31" title="Days 15–30"></i></div><div class="bus-scale" aria-hidden="true"><span>D1</span><span>D15</span><span>D30</span></div><div class="phase"><h3><span class="tag">Phase 1</span>Hardware &amp; Electronics Foundations<span class="rng">Days 1–14</span></h3><div class="cards"><article class="task" data-seg="0"><span class="d">Days 1–3</span><h4>Core Electronic Components &amp; Multimeter Practice</h4><ul><li>Learn active vs. passive components (Resistors, Capacitors, Diodes, Transistors, Switches).</li><li>Use a digital multimeter to measure voltage drops, resistance, and continuity testing on a breadboard.</li></ul></article><article class="task" data-seg="1"><span class="d">Days 4–6</span><h4>Hardware Wiring &amp; Schematic Literacy</h4><ul><li>Understand breadboard schematics, power rails, common grounds, pull-up/pull-down resistors, and decoupling capacitors.</li><li>Wire basic circuits (LEDs with current-limiting resistors, push-button switches, and relay modules).</li></ul></article><article class="task" data-seg="2"><span class="d">Days 7–10</span><h4>Soldering &amp; Connectors</h4><ul><li>Practice with through-hole soldering irons (350°C–400°C), lead-free solder, flux, heat shrink tubing, and wire strippers.</li><li>Solder header pins onto breakout boards and build custom wire harnesses.</li></ul></article><article class="task" data-seg="3"><span class="d">Days 11–14</span><h4>Hardware Identification &amp; Sensor Overview</h4><ul><li>Overview of sensors (Ultrasonic <code>HC-SR04</code>, IR obstacle sensors, IMUs, rotary encoders) and actuators (DC motors, steppers, servos, <code>L298N</code> drivers).</li></ul></article></div></div><div class="phase"><h3><span class="tag">Phase 2</span>Microcontroller &amp; Arduino Programming<span class="rng">Days 15–30</span></h3><div class="cards one"><article class="task" data-seg="4"><span class="d">Days 15–30</span><h4>Arduino IDE Setup &amp; C++ Introduction</h4><ul><li>Install the Arduino IDE, manage libraries, and learn basic C++ syntax (variables, data types, functions, and control structures).</li><li>Write your first microcontroller scripts to read digital/analog pins and manage serial monitor debugging.</li></ul></article></div></div></div></section>
+<section class="month" id="m2" style="--c:var(--m2)"><div class="wrap"><header class="mh"><span class="mh-num">M2</span><div><p class="mh-days">Month 2 · Days 1–30</p><h2>Core Arduino Sensors, Actuators &amp; Peripherals</h2></div></header><div class="bus" aria-hidden="true"><i style="grid-column:1 / 3" title="Days 1–2"></i><i style="grid-column:3 / 5" title="Days 3–4"></i><i style="grid-column:5 / 8" title="Days 5–7"></i><i style="grid-column:8 / 11" title="Days 8–10"></i><i style="grid-column:11 / 14" title="Days 11–13"></i><i style="grid-column:14 / 17" title="Days 14–16"></i><i style="grid-column:17 / 20" title="Days 17–19"></i><i style="grid-column:20 / 23" title="Days 20–22"></i><i style="grid-column:23 / 26" title="Days 23–25"></i><i style="grid-column:26 / 29" title="Days 26–28"></i><i style="grid-column:29 / 31" title="Days 29–30"></i></div><div class="bus-scale" aria-hidden="true"><span>D1</span><span>D15</span><span>D30</span></div><ol class="log"><li data-seg="0"><span class="d">Days 1–2</span><div class="t"><h4>LED Blink</h4><p>Digital output basics</p></div><span class="api">digitalWrite()</span></li><li data-seg="1"><span class="d">Days 3–4</span><div class="t"><h4>Arduino LED Control with Push Button</h4><p>Digital input handling</p></div><span class="api">digitalRead()</span></li><li data-seg="2"><span class="d">Days 5–7</span><div class="t"><h4>LED Brightness Control using <code>PWM</code></h4><p>Pulse Width Modulation</p></div><span class="api">analogWrite()</span></li><li data-seg="3"><span class="d">Days 8–10</span><div class="t"><h4>RGB LED Control</h4><p>Mixing analog outputs for color blending</p></div><span class="api">analogWrite()</span></li><li data-seg="4"><span class="d">Days 11–13</span><div class="t"><h4>Traffic Light System</h4><p>Timing logic and state sequencing</p></div><span class="api">millis()</span></li><li data-seg="5"><span class="d">Days 14–16</span><div class="t"><h4>Active Buzzer and Sound Generation</h4><p>Tone generation and frequencies</p></div><span class="api">tone()</span></li><li data-seg="6"><span class="d">Days 17–19</span><div class="t"><h4>LDR Light Sensor</h4><p>Automatic Night Light implementation</p></div><span class="api">analogRead()</span></li><li data-seg="7"><span class="d">Days 20–22</span><div class="t"><h4>Ultrasonic Distance Sensor</h4><p><code>HC-SR04</code> distance measuring</p></div><span class="api">pulseIn()</span></li><li data-seg="8"><span class="d">Days 23–25</span><div class="t"><h4>Servo Motor Control</h4><p><code>SG90</code> precise angle positioning</p></div><span class="api">Servo.write()</span></li><li data-seg="9"><span class="d">Days 26–28</span><div class="t"><h4>LCD 16×2 Display</h4><p>Interfacing <code>I2C</code>/parallel screens for text output</p></div><span class="api">LiquidCrystal_I2C</span></li><li data-seg="10"><span class="d">Days 29–30</span><div class="t"><h4><code>DHT11</code> Temperature &amp; Humidity Sensor &amp; IR Remote Control</h4></div><span class="api">DHT.h · IRremote.h</span></li></ol></div></section>
+<section class="month" id="m3" style="--c:var(--m3)"><div class="wrap"><header class="mh"><span class="mh-num">M3</span><div><p class="mh-days">Month 3 · Days 1–30</p><h2>Advanced Modules &amp; Line Follower Robot</h2></div></header><div class="bus" aria-hidden="true"><i style="grid-column:1 / 4" title="Days 1–3"></i><i style="grid-column:4 / 7" title="Days 4–6"></i><i style="grid-column:7 / 10" title="Days 7–9"></i><i style="grid-column:10 / 13" title="Days 10–12"></i><i style="grid-column:13 / 16" title="Days 13–15"></i><i style="grid-column:16 / 18" title="Days 16–17"></i><i style="grid-column:18 / 31" title="Days 18–30"></i></div><div class="bus-scale" aria-hidden="true"><span>D1</span><span>D15</span><span>D30</span></div><ol class="log"><li data-seg="0"><span class="d">Days 1–3</span><div class="t"><h4>Relay Module Control</h4><p>Switching high-voltage AC/DC loads</p></div><span class="api">digitalWrite()</span></li><li data-seg="1"><span class="d">Days 4–6</span><div class="t"><h4>Bluetooth <code>HC-05</code> &amp; Wi-Fi Communication</h4><p>Wireless serial control</p></div><span class="api">SoftwareSerial</span></li><li data-seg="2"><span class="d">Days 7–9</span><div class="t"><h4>RTC Digital Clock</h4><p><code>DS3231</code> real-time timekeeping</p></div><span class="api">RTClib</span></li><li data-seg="3"><span class="d">Days 10–12</span><div class="t"><h4>Keypad Security Lock</h4><p>4×4 matrix keypad interfacing</p></div><span class="api">Keypad.h</span></li><li data-seg="4"><span class="d">Days 13–15</span><div class="t"><h4>RFID Attendance System</h4><p><code>RC522</code> reader and tag scanning</p></div><span class="api">MFRC522.h</span></li><li data-seg="5"><span class="d">Days 16–17</span><div class="t"><h4>Joystick Control</h4><p>Analog thumb joystick positioning</p></div><span class="api">analogRead()</span></li></ol><article class="capstone" data-seg="6"><div class="cap-text"><span class="d">Days 18–30</span><h3>Capstone Project — Line Follower Robot</h3><p>Integrating infrared reflectance arrays, motor drivers, and closed-loop steering logic.</p><p class="loop">Read the IR array, compute the error, adjust left and right motor speed. Repeat.</p></div><div class="cap-art"><svg class="track" viewBox="0 0 360 150" role="img" aria-label="A line follower robot with a row of infrared sensors steering along a curved line">
+<path d="M20 112 C 80 112, 92 38, 150 38 S 232 118, 292 98 S 330 52, 342 40" class="tape"/>
+<path d="M20 112 C 80 112, 92 38, 150 38 S 232 118, 292 98 S 330 52, 342 40" class="guide"/>
+<g class="bot" transform="translate(20 112)">
+<rect x="-17" y="-11" width="34" height="22" rx="3" class="body"/>
+<circle cx="13" cy="-7" r="2.6" class="eye"/><circle cx="13" cy="0" r="2.6" class="eye"/><circle cx="13" cy="7" r="2.6" class="eye"/>
+<rect x="-14" y="-14" width="10" height="4" rx="1" class="wheel"/><rect x="-14" y="10" width="10" height="4" rx="1" class="wheel"/>
+</g>
+</svg></div></article></div></section>
+<section class="month" id="m4" style="--c:var(--m4)"><div class="wrap"><header class="mh"><span class="mh-num">M4</span><div><p class="mh-days">Month 4 · Days 1–30</p><h2>Mobile Robotics &amp; Mechanical Systems</h2></div></header><div class="bus" aria-hidden="true"><i style="grid-column:1 / 16" title="Days 1–15"></i><i style="grid-column:16 / 31" title="Days 16–30"></i></div><div class="bus-scale" aria-hidden="true"><span>D1</span><span>D15</span><span>D30</span></div><div class="duo"><article class="project" data-seg="0"><span class="d">Days 1–15</span><h3>RC Car Project</h3><p>Build a chassis, integrate dual-motor differential drive, and set up smartphone/Bluetooth directional control.</p><ul class="chips"><li>Chassis</li><li>Dual-motor differential drive</li><li>Smartphone / Bluetooth control</li></ul></article><article class="project" data-seg="1"><span class="d">Days 16–30</span><h3>Robotic Arm Project</h3><p>Assemble multi-servo mechanical joints, design inverse positioning routines, and build a multi-axis pick-and-place arm.</p><ul class="chips"><li>Multi-servo joints</li><li>Inverse positioning</li><li>Pick-and-place</li></ul></article></div></div></section>
+<section class="month" id="m5" style="--c:var(--m5)"><div class="wrap"><header class="mh"><span class="mh-num">M5</span><div><p class="mh-days">Month 5 · Days 1–30</p><h2>Autonomous Navigation &amp; Voice Control</h2></div></header><div class="bus" aria-hidden="true"><i style="grid-column:1 / 16" title="Days 1–15"></i><i style="grid-column:16 / 31" title="Days 16–30"></i></div><div class="bus-scale" aria-hidden="true"><span>D1</span><span>D15</span><span>D30</span></div><div class="duo"><article class="project" data-seg="0"><span class="d">Days 1–15</span><h3>Obstacle Avoiding Robot</h3><p>Combine ultrasonic sensors and servo-scanning sweeps to allow a mobile robot to autonomously navigate cluttered environments.</p><ul class="chips"><li>Ultrasonic sensing</li><li>Servo-scanning sweeps</li><li>Autonomous navigation</li></ul></article><article class="project" data-seg="1"><span class="d">Days 16–30</span><h3>Voice Controlled Robot</h3><p>Integrate speech recognition modules or phone-linked speech-to-text bridges to execute motion commands via spoken words.</p><ul class="chips"><li>Speech recognition</li><li>Speech-to-text bridge</li><li>Motion commands</li></ul></article></div></div></section>
+<section class="month" id="m6" style="--c:var(--m6)"><div class="wrap"><header class="mh"><span class="mh-num">M6</span><div><p class="mh-days">Month 6 · Days 1–30</p><h2>Advanced Robotics &amp; Smart Automation</h2></div></header><div class="bus" aria-hidden="true"><i style="grid-column:1 / 16" title="Days 1–15"></i><i style="grid-column:16 / 31" title="Days 16–30"></i></div><div class="bus-scale" aria-hidden="true"><span>D1</span><span>D15</span><span>D30</span></div><div class="duo"><article class="project" data-seg="0"><span class="d">Days 1–15</span><h3>Maze Solver Robot</h3><p>Implement flood-fill or wall-following algorithms using IR and ultrasonic arrays to autonomously solve complex mazes.</p><ul class="chips"><li>Flood-fill</li><li>Wall-following</li><li>IR + ultrasonic arrays</li></ul></article><article class="project" data-seg="1"><span class="d">Days 16–30</span><h3>Home Automation System</h3><p>Build a central IoT hub connecting relays, sensors, and wireless nodes to automate home lighting, temperature control, and security alerts.</p><ul class="chips"><li>IoT hub</li><li>Relays and sensors</li><li>Wireless nodes</li><li>Lighting, temperature, security alerts</li></ul></article></div></div></section>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <span>// 6 months · 180 days · upload, test, iterate</span>
+    <span class="bands" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></span>
+  </div>
+</footer>
+<script src="script.js" defer></script>
+</body>
+</html>
